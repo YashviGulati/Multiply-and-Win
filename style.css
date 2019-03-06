@@ -1,0 +1,144 @@
+html{
+    background: radial-gradient(circle, #fff, #ccc)
+}
+
+#main_container{
+    height: 440px;
+    width: 550px;
+    background-color: #9DD2EA;
+    margin: 100px auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 0px 0px #009de4;  
+    position: relative;
+}
+#score{
+    height:30px;
+    width:75px;
+    background-color: #F1FF92;
+    float: right;
+    margin: 20px;
+    box-shadow: 0px 4px 0px 0px #9DA853;
+    color: #888E5F;
+    text-align: center;
+    padding: 10px 0px 0px 0px; 
+
+}
+#question{
+    background-color: #9DA0EA;
+    height: 150px;
+    width: 450px;
+    margin: 50px auto 10px auto;
+    box-shadow: 0px 4px #535aa8;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: black;
+}
+#correct{
+    position: absolute;
+    height:30px;
+    width:75px;
+    background-color: #42e252;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    position: absolute;
+    left: 220px;
+    color: white;
+    display: none;
+    margin: 20px;
+    }
+#incorrect{
+    height:30px;
+    width:75px;
+    background-color: #de401a;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    position: absolute;
+    left: 219px;
+    color: white;
+    display: none;
+    margin: 20px;
+    }
+#msg{
+    background-color: #B481D9;
+    box-shadow: 0px 4px #8153A8;
+    padding: 10px;
+    width: 430px;
+    text-align: center;
+    position: absolute;
+    left: 50px;
+    font-weight: bold;
+}
+#options{
+    width: 450px;
+    height: 100px;
+    margin: 5px auto;
+    padding: 10px;
+}
+.div1{
+    width: 81px;
+    height: 81px;
+    background-color: white;
+    float: left;
+    margin-right: 41px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    transition: all 0.2s;
+}
+.div1:hover, #start:hover{
+    background-color: #9C89F6;
+    color: white;
+    box-shadow: 0px 0px #6b54d3;
+}
+
+.div1:active #start:active{
+    background-color: #9C89F6;
+    color: white;
+    box-shadow: 0px 0px #6b54d3; 
+    top: 4px;
+}
+#b4{
+    margin-right: 0;
+}
+#start{
+    width: 78px;
+    padding: 8px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 0 auto;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s; 
+}
+#timeleft{
+    width: 130px;
+    padding: 10px;
+    position: absolute;
+    top: 390px;
+    left: 380px;
+    background-color: rgba(181, 235, 36, 0.8);
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+#end
+{
+    height: 200px;
+    width: 459px;
+    background: linear-gradient(#F3CA6B, #F3706C);
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    z-index: 2;
+    display:none;
+}
